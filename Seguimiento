@@ -1,0 +1,27 @@
+import java.util.Scanner
+public class Seguimiento{
+  public static voi main(String[]args){
+  Scanner Lector= new Scanner(System.in);
+  int Respuesta,Num1,Dia;
+  double total,precio;
+  System.out.println("Ingrese el ultimo digito de su cedula");
+  Num1= Lector.nextInt();
+  System.out.println("Ingrese que dia es";
+  Dia= Lector.nextInt();
+  Sytem.out.println("cuanto esta pagando?");
+  precio= Lector.nextDouble();
+  System.out.println("Va a pagar con tarjeta o de contado?responda con 1 o 2 respectivamente");
+  Respuesta= Lector.nextInt();
+  if(Respuesta==1){
+    Total= Precio+(Precio*3/100)
+    System.out.println("Su total a pagar es:  "+Total)
+  }else{
+    Total= Precio-(Precio*5/100)
+    System.out.println("Su total a pagar es:  "+Total)
+    }
+      
+  
+  
+  
+  }
+}
