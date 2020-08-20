@@ -3,23 +3,57 @@ public class Seguimiento{
   public static voi main(String[]args){
   Scanner Lector= new Scanner(System.in);
   int Respuesta,Num1,Dia;
+  
   double total,precio;
+  
   System.out.println("Ingrese el ultimo digito de su cedula");
+  
   Num1= Lector.nextInt();
+  
   System.out.println("Ingrese que dia es";
+  
   Dia= Lector.nextInt();
+  
   Sytem.out.println("cuanto esta pagando?");
+  
   precio= Lector.nextDouble();
+  
   System.out.println("Va a pagar con tarjeta o de contado?responda con 1 o 2 respectivamente");
+  
   Respuesta= Lector.nextInt();
+  
   if(Respuesta==1){
+  
     Total= Precio+(Precio*3/100)
-    System.out.println("Su total a pagar es:  "+Total)
+	
+    System.out.println("Su total a pagar es:  "+Total);
+	
   }else{
     Total= Precio-(Precio*5/100)
-    System.out.println("Su total a pagar es:  "+Total)
+	
+    System.out.println("Su total a pagar es:  "+Total);
+	
     }
-      
+	if(Num1==6||Num1==9||Num1==24){
+	
+		if((Num1==6)&&(Dia%2==0){
+			System.out.println("Gana una botella de te de durazno");
+			
+		}else{
+		System.out.println("gana una coca cola de 750 ml");
+		
+		}
+		if(Num1==9){
+	    System.out.println("Gana un descuento del 9% sobre el valor de su siguiente compra");
+		
+		}
+        if((Num1==24)&&(Dia%2==0)){
+		System.out.println("Gana un gel antibacterial");
+		
+		}else{
+		System.out.println("Gana un sobre de dolex");
+		}  
+   }   
   
   
   
